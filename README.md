@@ -11,3 +11,9 @@ No diretório raiz do projeto você pode rodar:
 
 Rode a aplicação no modo de desenvolvimento<br>
 Abra [http://localhost:1234](http://localhost:1234) para ver no navegador.
+
+## Testes
+
+Para rodar os testes do projeto:
+
+`npm test`
