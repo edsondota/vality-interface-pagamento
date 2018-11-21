@@ -1,13 +1,13 @@
 # Interface Pagamento
 
-Este projeto vai criar uma interface de pagamento como teste técnico
+Este projeto cria uma interface de pagamento como teste técnico
 para a Vality.
 
 ## Scripts disponíveis
 
 No diretório raiz do projeto você pode rodar:
 
-### `npm start`
+`npm start`
 
-Rode a aplicação no modeo de desenvolvimento<br>
-Abra [http://localhost:3000](http://localhost:3000) para ver no navegador.
+Rode a aplicação no modo de desenvolvimento<br>
+Abra [http://localhost:1234](http://localhost:1234) para ver no navegador.
