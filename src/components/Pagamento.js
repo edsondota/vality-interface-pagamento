@@ -3,6 +3,7 @@ import Header from './Pagamento/Header';
 import Rodape from './Pagamento/Rodape';
 import Titulo from './Pagamento/Titulo';
 import Formulario from './Pagamento/Formulario';
+import BotaoLogin from './Pagamento/BotaoLogin';
 
 class Pagamento extends Component {
   render () {
@@ -17,6 +18,7 @@ class Pagamento extends Component {
                   <div className="pagamento__conteudo__titulo text-center bg-white p-2">
                     <Titulo />
                     <Formulario />
+                    <BotaoLogin />
                   </div>
                 </div>
               </div>
