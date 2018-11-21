@@ -5,7 +5,7 @@ class Pagamento extends Component {
   render () {
     return (
       <div className="pagamento row mt-3">
-        <div className="col-6 offset-3">
+        <div className="col-md-6 offset-md-3">
           <Header />
         </div>
       </div>
