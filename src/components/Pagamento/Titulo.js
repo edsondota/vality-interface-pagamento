@@ -1,19 +1,17 @@
 import React, { Component } from 'react';
 
 class Titulo extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <div className="row">
         <div className="col">
-          <h4>
-            Parcele sua compra<br />
-            com o BoletoFlex
-          </h4>
+          <h4 dangerouslySetInnerHTML={{ __html: this.props.titulo }} />
           <p className="lead">
-            <small>
-              Ganhe um limite de crédito instantâneo<br />
-              para concluir esta compra.
-            </small>
+            <small dangerouslySetInnerHTML={{ __html: this.props.subtitulo }} />
           </p>
         </div>
       </div>

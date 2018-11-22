@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookSquare } from '@fortawesome/free-brands-svg-icons';
 import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
@@ -8,10 +9,10 @@ class BotaoLogin extends Component {
     return (
       <div className="row">
         <div className="col">
-          <button type="buton" className="btn btn-primary btn-block text-center py-2 rounded-0">
+          <Link to="/parcelas" className="btn btn-primary btn-block text-center py-2 rounded-0">
             <FontAwesomeIcon icon={faFacebookSquare} />
             <span className="ml-1">Continuar com Facebook</span>
-          </button>
+          </Link>
           <p className="mt-1">
             <a className="text-muted" href="#">
               <small>

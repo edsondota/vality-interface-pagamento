@@ -16,7 +16,9 @@ class Pagamento extends Component {
               <div className="row pagamento__conteudo">
                 <div className="col">
                   <div className="pagamento__conteudo__titulo text-center bg-white p-2">
-                    <Titulo />
+                    <Titulo
+                        titulo="Parcele sua compra<br/>com o BoletoFlex"
+                        subtitulo="Ganhe um limite de crédito instantâneo<br/>para concluir esta compra." />
                     <Formulario />
                     <BotaoLogin />
                   </div>
