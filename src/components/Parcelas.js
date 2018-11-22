@@ -3,6 +3,7 @@ import Header from './Pagamento/Header';
 import Rodape from './Pagamento/Rodape';
 import Titulo from './Pagamento/Titulo';
 import BotaoParcela from './Parcelas/BotaoParcela';
+import { MemoryRouter } from 'react-router-dom'
 
 class Parcelas extends Component {
   render () {
