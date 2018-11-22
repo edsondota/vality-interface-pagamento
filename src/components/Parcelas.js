@@ -5,7 +5,7 @@ import Titulo from './Pagamento/Titulo';
 import Formulario from './Pagamento/Formulario';
 import BotaoLogin from './Pagamento/BotaoLogin';
 
-class Pagamento extends Component {
+class Parcelas extends Component {
   render () {
     return (
       <div className="pagamento row mt-3">
@@ -17,10 +17,8 @@ class Pagamento extends Component {
                 <div className="col">
                   <div className="pagamento__conteudo__titulo text-center bg-white p-2">
                     <Titulo
-                        titulo="Parcele sua compra<br/>com o BoletoFlex"
-                        subtitulo="Ganhe um limite de crédito instantâneo<br/>para concluir esta compra." />
-                    <Formulario />
-                    <BotaoLogin />
+                        titulo="Escolha a parcela que<br/>cabe no seu bolso"
+                        subtitulo="Nós pagamos a loja à vista e você nos paga<br/>a prazo no boleto." />
                   </div>
                 </div>
               </div>
@@ -33,4 +31,4 @@ class Pagamento extends Component {
   }
 }
 
-export default Pagamento;
+export default Parcelas;
