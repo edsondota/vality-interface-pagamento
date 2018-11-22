@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import Header from './Pagamento/Header';
 import Rodape from './Pagamento/Rodape';
 import Titulo from './Pagamento/Titulo';
-import Formulario from './Pagamento/Formulario';
-import BotaoLogin from './Pagamento/BotaoLogin';
+import BotaoParcela from './Parcelas/BotaoParcela';
 
 class Parcelas extends Component {
   render () {
@@ -19,6 +18,17 @@ class Parcelas extends Component {
                     <Titulo
                         titulo="Escolha a parcela que<br/>cabe no seu bolso"
                         subtitulo="Nós pagamos a loja à vista e você nos paga<br/>a prazo no boleto." />
+                    <div className="parcelas pb-4">
+                      <BotaoParcela
+                        parcela="6x de R$ 235,80"
+                        total="total a pagar: R$ 1.414,80" />
+                      <BotaoParcela
+                        parcela="9x de R$ 173,42"
+                        total="total a pagar: R$ 1.560,78" />
+                      <BotaoParcela
+                        parcela="12x de R$ 139,47"
+                        total="total a pagar: R$ 1.498,69" />
+                    </div>
                   </div>
                 </div>
               </div>

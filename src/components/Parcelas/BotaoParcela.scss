@@ -1,0 +1,18 @@
+.parcela {
+  cursor: pointer;
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    right: 20px;
+    margin-top: .8em;
+    width: 1.4em;
+    height: 1.4em;
+    border-top: 0.2em solid #ccc;
+    border-right: 0.2em solid #ccc;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+}
